@@ -1,6 +1,6 @@
 boto3
+python-dotenv
 langchain
 langchain-openai
 langchain-google-genai
 huggingface_hub
-python-dotenv
