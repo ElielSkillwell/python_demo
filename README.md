@@ -21,6 +21,8 @@ To make this easier, I've made a `create-venv.sh`script.
     - this is the AWS Software Development Kit, which is used to interact with AWS Resources and Services, like S3 or Bedrock. [Link to boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html).
 2. python-dotenv
     - This is a local "secret" manager. You can define environment values inside a .env file, like API-keys or AWS Profiles, and if you have the correct `.gitignore` file, they will never end up in your repo (example of a good `.gitignore` is in this repo). There is an example on how to use it inside the main.py.
-![Example of the .env file](img/dotenv_file_example.png)
+    - ![Example of the .env file](img/dotenv_file_example.png)
+    - You can find you AWS Profiles inside ´~/.aws´ directory, either in `~/.aws/credentials`or `~/.aws/config` files.
+
 3. langchain
     - Framework to access different Machine Learning Modules. [More information here](https://python.langchain.com/docs/get_started/introduction).
